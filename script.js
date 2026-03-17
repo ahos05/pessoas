@@ -1,12 +1,21 @@
-// CONFIGURAÇÃO FIREBASE (cole aqui a sua config)
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_PROJETO.firebaseapp.com",
-  projectId: "SEU_PROJETO",
-  storageBucket: "SEU_PROJETO.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyCS0X3fSoDtWtMcprRmNub59saP2t0r0YA",
+  authDomain: "classificador-6e1c5.firebaseapp.com",
+  databaseURL: "https://classificador-6e1c5-default-rtdb.firebaseio.com",
+  projectId: "classificador-6e1c5",
+  storageBucket: "classificador-6e1c5.firebasestorage.app",
+  messagingSenderId: "663935211622",
+  appId: "1:663935211622:web:b09923cce92b5cab4435a7"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
