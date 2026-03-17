@@ -9,11 +9,6 @@ const firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
-firebase.initializeApp(firebaseConfig);
-const db = firebase.firestore();
 
 const form = document.getElementById('registroForm');
 const verRegistrosBtn = document.getElementById('verRegistros');
