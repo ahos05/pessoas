@@ -1,4 +1,3 @@
-
 const firebaseConfig = {
   apiKey: "AIzaSyCS0X3fSoDtWtMcprRmNub59saP2t0r0YA",
   authDomain: "classificador-6e1c5.firebaseapp.com",
@@ -8,7 +7,8 @@ const firebaseConfig = {
   messagingSenderId: "663935211622",
   appId: "1:663935211622:web:b09923cce92b5cab4435a7"
 };
-
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
