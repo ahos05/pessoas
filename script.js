@@ -1,11 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCS0X3fSoDtWtMcprRmNub59saP2t0r0YA",
-  authDomain: "classificador-6e1c5.firebaseapp.com",
-  databaseURL: "https://classificador-6e1c5-default-rtdb.firebaseio.com",
-  projectId: "classificador-6e1c5",
-  storageBucket: "classificador-6e1c5.firebasestorage.app",
-  messagingSenderId: "663935211622",
-  appId: "1:663935211622:web:b09923cce92b5cab4435a7"
+  apiKey: "AIzaSyCQjlpyU8AUc_amPRhXO141pGKP6jw1Zt4",
+  authDomain: "classificador-e7bae.firebaseapp.com",
+  projectId: "classificador-e7bae",
+  storageBucket: "classificador-e7bae.firebasestorage.app",
+  messagingSenderId: "123664777765",
+  appId: "1:123664777765:web:288801e19be06b08f3f5cc"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
